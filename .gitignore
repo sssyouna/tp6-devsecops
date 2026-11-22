@@ -1,0 +1,17 @@
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Fichiers de sortie Helm
+rendered.yaml
+rendered-test.yaml
+
+# Fichiers locaux
+.env
+.env.*
+!.env.example
+
+# Sauvegardes de l'éditeur
+*.swp
+*.swo
+*~
