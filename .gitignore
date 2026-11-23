@@ -15,3 +15,13 @@ rendered-test.yaml
 *.swp
 *.swo
 *~
+
+# Manifests Helm générés
+rendered-ns.yaml
+
+# Rapports JSON générés par Trivy
+trivy-config-*.json
+
+# Fichiers d'authentification temporaires
+*.kubeconfig
+*.token
